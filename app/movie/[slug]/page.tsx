@@ -46,8 +46,8 @@ export default async function SingleMoviePage({ params }: { params: any }) {
                 align={'center'}
             >
                 <Image
-                    width={1000}
-                    height={1000}
+                    width={700}
+                    height={700}
                     src={`https://image.tmdb.org/t/p/original${res.poster_path}`}
                     alt={`Picture of ${res.title}`}
                     w={'sm'}
